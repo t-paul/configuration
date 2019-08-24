@@ -1,0 +1,16 @@
+{
+	"colors": {
+		"tomorrow:Background":  [15, "ffffff"],
+		"tomorrow:CurrentLine": [ 7, "efefef"],
+		"tomorrow:Selection":   [ 7, "d6d6d6"],
+		"tomorrow:Foreground":  [ 8, "4d4d4c"],
+		"tomorrow:Comment":     [ 8, "8e908c"],
+		"tomorrow:Red":         [ 9, "f2777a"],
+		"tomorrow:Orange":      [ 3, "f99157"],
+		"tomorrow:Yellow":      [11, "ffcc66"],
+		"tomorrow:Green":       [10, "99cc99"],
+		"tomorrow:Aqua":        [14, "66cccc"],
+		"tomorrow:Blue":        [12, "6699cc"],
+		"tomorrow:Purple":      [13, "cc99cc"]
+	}
+}

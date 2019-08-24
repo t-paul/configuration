@@ -1,0 +1,24 @@
+{
+	"name": "Tomorrow",
+	"groups": {
+		"user":                       { "fg": "tomorrow:Background", "bg": "tomorrow:Blue",      "attrs": [] },
+
+		"information:additional":     { "fg": "tomorrow:Comment",    "bg": "tomorrow:Selection", "attrs": [] },
+		"information:regular":        { "fg": "tomorrow:Foreground", "bg": "tomorrow:Selection", "attrs": ["bold"] },
+		"information:highlighted":    { "fg": "tomorrow:Foreground", "bg": "tomorrow:Yellow",    "attrs": ["bold"]},
+		"information:priority":       { "fg": "tomorrow:Foreground", "bg": "tomorrow:Orange",    "attrs": ["bold"] },
+		"warning:regular":            { "fg": "tomorrow:Yellow",     "bg": "tomorrow:Red",       "attrs": ["bold"] },
+
+		"critical:failure":           "warning:regular",
+		"critical:success":           "information:regular",
+
+		"cwd":                        "information:additional",
+		"cwd:current_folder":         "information:regular",
+		"cwd:divider":                "information:additional",
+
+		"gitstatus":                  "information:highlighted",
+		"gitstatus:divider":          "information:regular",
+		"gitstatus_stashed":          "information:priority"
+
+	}
+}
