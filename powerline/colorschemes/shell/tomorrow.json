@@ -1,12 +1,12 @@
 {
 	"name": "Tomorrow for shell",
 	"groups": {
-		"mode": { "fg": "tomorrow:base3", "bg": "tomorrow:green", "attrs": ["bold"] }
+		"mode": { "fg": "tomorrow:Foreground", "bg": "tomorrow:Selection", "attrs": ["bold"] }
 	},
 	"mode_translations": {
 		"vicmd": {
 			"groups": {
-				"mode": { "fg": "tomorrow:base3", "bg": "tomorrow:blue", "attrs": ["bold"] }
+				"mode": { "fg": "tomorrow:Foreground", "bg": "tomorrow:Selection", "attrs": ["bold"] }
 			}
 		}
 	}

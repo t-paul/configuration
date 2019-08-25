@@ -1,7 +1,8 @@
 {
 	"name": "Tomorrow",
 	"groups": {
-		"user":                       { "fg": "tomorrow:Background", "bg": "tomorrow:Blue",      "attrs": [] },
+		"user":                       { "fg": "tomorrow:Background", "bg": "tomorrow:Purple",    "attrs": [] },
+		"hostname":                   { "fg": "tomorrow:Background", "bg": "tomorrow:Blue",      "attrs": [] },
 
 		"information:additional":     { "fg": "tomorrow:Comment",    "bg": "tomorrow:Selection", "attrs": [] },
 		"information:regular":        { "fg": "tomorrow:Foreground", "bg": "tomorrow:Selection", "attrs": ["bold"] },
@@ -16,9 +17,25 @@
 		"cwd:current_folder":         "information:regular",
 		"cwd:divider":                "information:additional",
 
+		"stash":                      "information:highlighted",
+		"branch":                     "information:highlighted",
+		"branch_clean":               "information:highlighted",
+		"branch_dirty":               "information:highlighted",
+
+		"virtualenv":                 "information:highlighted",
+
 		"gitstatus":                  "information:highlighted",
 		"gitstatus:divider":          "information:regular",
-		"gitstatus_stashed":          "information:priority"
-
+		"gitstatus_tag":              "information:regular",
+		"gitstatus_ahead":            "information:priority",
+		"gitstatus_branch":           "information:priority",
+		"gitstatus_behind":           "information:priority",
+		"gitstatus_staged":           "information:priority",
+		"gitstatus_stashed":          "information:priority",
+		"gitstatus_changed":          "information:priority",
+		"gitstatus_unmerged":         "information:priority",
+		"gitstatus_branch_detached":  "information:priority",
+		"gitstatus_branch_dirty":     "information:priority",
+		"gitstatus_branch_clean":     "information:priority"
 	}
 }
